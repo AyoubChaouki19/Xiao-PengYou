@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+  background-color: #000;
+}
+.App{
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.left__container{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left:3vh;
+  padding-top: 15vh;
+  flex:5;
+  text-align: center;
+}
+.left__container h1{
+font-size: 30px;
+color: #f0fff8;
+text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+font-size: 50px;
+font-family: 'Press Start 2P', system-ui;
+}
+.right__container{
+  flex: 5;
+  padding: 20px 30px;
+  text-transform: lowercase;
+}
+.input__container{
+  display: flex;
+}
+.right__container input{
+  caret-color:#00ff66;
+  font-family: 'Press Start 2P', system-ui;
+  color: #00ff66;
+  border-color: black;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.input__container button{
+  border: #00ff66 solid 2px;
+  color: #00ff66;
+  font-family: 'Press Start 2P', system-ui;
+}
+@media (max-width: 800px) {
+.App{
+  flex-direction: column;
+}
+}

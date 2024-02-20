@@ -1,0 +1,25 @@
+.task__container{
+    text-transform: lowercase;
+    display: flex;
+    color: #00ff66;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 10px;
+    justify-content: space-between;
+    border: 1px solid #00ff66;
+}
+.delete__btn{
+    margin-top: 9px;
+    border: #00ff66 solid 2px;
+    cursor: pointer;
+    font-size: 10px;
+    color: #00ff66;
+    font-family: 'Press Start 2P', system-ui;
+}
+.cross__btn{
+    margin-top: 7px;
+    cursor: pointer;
+    border: #00ff66 solid 2px;
+    color: #00ff66;
+    font-size: 10px;
+    font-family: 'Press Start 2P', system-ui;
+}
